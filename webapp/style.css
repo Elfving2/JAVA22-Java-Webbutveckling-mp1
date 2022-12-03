@@ -1,0 +1,59 @@
+* {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 50px;
+    background-color: skyblue;
+}
+
+h1{
+    text-align: center;
+}
+h2 {
+    text-align:center;
+}
+
+main {
+    flex: auto;
+}
+
+.input {
+    width: 10%;
+    height: 6%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+
+p {
+    height: fit-content;
+}
+
+.pages {
+    width: 10%;
+    height: 6%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 50px;
+    background-color: skyblue;
+}
